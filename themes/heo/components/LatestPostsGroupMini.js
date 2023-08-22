@@ -52,7 +52,7 @@ export default function LatestPostsGroupMini ({ latestPosts, siteInfo }) {
                     >
                         <div>
                             <div className='line-clamp-2 menu-link'>{post.title}</div>
-                            <div className="text-gray-500">{post.date}</div>
+                            <div className="text-gray-500">{post.createdTime}</div>
                         </div>
                     </div>
 
