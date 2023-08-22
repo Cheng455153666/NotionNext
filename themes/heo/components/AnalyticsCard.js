@@ -20,12 +20,12 @@ export function AnalyticsCard(props) {
                     <div>{postCount}</div>
                 </div>
             </div>
-            <div className='inline'>
+            {/* <div className='inline'>
                 <div className='flex justify-between'>
                     <div>建站天数:</div>
                     <div>{diffDays} 天</div>
                 </div>
-            </div>
+            </div> */}
             <div className='hidden busuanzi_container_page_pv'>
                 <div className='flex justify-between'>
                     <div>访问量:</div>
